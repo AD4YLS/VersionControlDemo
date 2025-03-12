@@ -1,5 +1,8 @@
-#Version 2 
-name = input("Enter your name") 
+#Version 3
+While True: 
+name = input("Enter your name(or 'exit' to quit):") 
+if name.lower() == 'exit': 
+    break 
 print(f"Hello,{name}!") 
 #Function of the store title
 def display_store_name():
