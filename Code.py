@@ -1,3 +1,6 @@
+#Version 2 
+name = input("Enter your name") 
+print(f"Hello,{name}!") 
 #Function of the store title
 def display_store_name():
     print("Spacecraft Rental")
